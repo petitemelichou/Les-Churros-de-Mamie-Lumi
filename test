@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Les Churros de Mamie Lumi</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fff8f0;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background-color: #f5c06b;
+      padding: 20px 10px;
+      text-align: center;
+    }
+    header img {
+      max-height: 100px;
+      margin-bottom: 10px;
+    }
+    .header-title h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+    .header-subtitle {
+      font-style: italic;
+      margin-top: 8px;
+      font-size: 16px;
+    }
+    footer {
+      background-color: #f5c06b;
+      padding: 10px;
+      text-align: center;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.jpg" alt="Logo Mamie Lumi">
+    <div class="header-title">
+      <h1>Les Churros de Mamie Lumi</h1>
+      <div class="header-subtitle">La recette authentique Espagnole, transmise par ma grand-mère : Mamie Lumi. Une recette artisanale faite avec amour.</div>
+    </div>
+  </header>
+
+  <section>
+    <h2>Bienvenue !</h2>
+    <p>Site en construction. Revenez bientôt pour plus d'infos sur nos délicieux churros !</p>
+  </section>
+
+  <footer>
+    © 2025 Les Churros de Mamie Lumi — Site fait avec amour 💛
+  </footer>
+</body>
+</html>
