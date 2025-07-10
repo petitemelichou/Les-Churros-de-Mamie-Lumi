@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Les Churros de Mamie Lumi</title><br>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fff8f0;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background-color: #f5c06b;
+      padding: 20px;
+    }
+    header img {
+      max-height: 100px;
+    }
+    .header-title {
+      flex-grow: 1;
+      text-align: center;
+    }
+    .lang-switch button {
+      margin-left: 5px;
+      padding: 5px 10px;
+      font-weight: bold;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    section {
+      padding: 30px 20px;
+      text-align: center;
+    }
+    .menu-item {
+      font-size: 16px;
+      margin: 8px 0;
+    }
+    .two-column {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      text-align: left;
+    }
+    .two-column img {
+      max-width: 300px;
+      border-radius: 10px;
+    }
+    .text-block {
+      max-width: 400px;
+    }
+    footer {
+      background-color: #f5c06b;
+      padding: 10px;
+      text-align: center;
+      font-size: 14px;
+    }
+    @media (max-width: 768px) {
+      .two-column {
+        flex-direction: column;
+        text-align: center;
+      }
+      .two-column img, .text-block {
+        max-width: 90%;
+      }
+    
+  </style>
+  <script>
+    function setLang(lang) {
+      document.querySelectorAll('.fr').forEach(e => e.style.display = lang === 'fr' ? 'block' : 'none');
+      document.querySelectorAll('.en').forEach(e => e.style.display = lang === 'en' ? 'block' : 'none');
+        }
+
+    window.onload = () => setLang('fr');
+  </script>
+</head>
+<body>
+  <header>
+
+<img src="logo.jpg" alt="Logo Mamie Lumi">',
+    '''<header style="flex-direction: column; text-align: center
+    <div class="header-title">
+      <h1>Les Churros de Mamie Lumi</h1>
+<p style="font-style: italic; font-size: 16px;">
+      La recette authentique Espagnole, transmise par ma grand-mère : Mamie Lumi.<br>
+      Une recette artisanale faite avec amour.
+    </p>
+    </div>
+    <div class="lang-switch">
+      <button onclick="setLang('fr')">🇫🇷</button>
+      <button onclick="setLang('en')">🇬🇧</button>
+    }
+  </header>
+
+  <section class="fr">
+    <h2>Notre Menu</h2>
+    <div class="menu-item">🥖 Petit cornet de Churros nature ou sucre - 3,50 €</div>
+    <div class="menu-item">🥖 Grand cornet de Churros nature ou sucre – 4,50 €</div>
+    <div class="menu-item">🍫 Topping Nutella – 1,00 €</div>
+    <div class="menu-item">Topping Sirop d’érable - 1,50 €</div>
+    <div class="menu-item">☕ Café en grains - 2,00 €</div>
+    <div class="menu-item">Chocolat chaud maison - 3,50 €</div>
+    <div class="menu-item">🥤 Boisson fraîche - 2,00 €</div>
+  </section>
+  <section class="en">
+    <h2>Our Menu</h2>
+    <div class="menu-item">🥖 Small cone of churros plain or sugared - €3.50</div>
+    <div class="menu-item">🥖 Large cone of churros plain or sugared – €4.50</div>
+    <div class="menu-item">🍫 Nutella topping – €1.00</div>
+    <div class="menu-item">Maple syrup topping - €1.50</div>
+    <div class="menu-item">☕ Ground coffee - €2.00</div>
+    <div class="menu-item">Homemade hot chocolate – €3.50</div>
+    <div class="menu-item">🥤 Cold drink – €2.00</div>
+  </section>
+
+  <section class="fr">
+    <h2>Formule Mamie Lumi</h2>
+    <p> Un Cornet de churros + une boisson chaude<br>
+ → <strong> Seulement 6,50 €</strong><br>
+<p>Un Cornet de churros + une boisson froide<br>
+ → <strong> Seulement 5,50 €</strong></p>
+  </section>
+  <section class="en">
+    <h2>Mamie Lumi Combo</h2>
+    <p> churros + 1 hot drink<br>
+ → <strong>Only €6.50</strong><br>
+<p> churros + 1 cold drink<br>
+ → <strong>Only €5.50</strong></p>
+  </section>
+
+  <section>
+    <img src="churros-poudre.jpg" alt="Churros Image" style="max-width:90%; border-radius:10px;">
+  </section>
+
+  <section class="two-column">
+    <div class="text-block fr">
+      <h2>À propos de Mamie Lumi</h2>
+    “Ma grand-mère : Mamie Lumi m’a transmis la vraie recette authentique espagnole des churros. "
+    "Une pâte légère et croustillante, préparée chaque jour avec amour, comme en Espagne. "
+    "Des churros authentiques, faits avec amour, grâce à une recette artisanale transmise par ma grand-mère "
+    "experte en gourmandise. Je vous invite à découvrir les secrets d'une recette qui a su traverser les âges.”</p>
+    </div>
+    <div class="text-block en">
+      <h2>About Mamie Lumi</h2>
+      <p>    “My grandmother, Mamie Lumi, passed down the authentic Spanish churros recipe. "
+    "A light and crispy dough prepared with love every day, just like in Spain. "
+    "Authentic churros made with love, following a handmade recipe from my gourmet-loving grandma. "
+    "Discover the secret of a treat that has stood the test of time.”</p>
+    </div>
+    <img src="mamie-lumi.jpg" alt="Mamie Lumi">
+  </section>
+
+  <section class="fr">
+    <h2>Où déguster nos churros ?</h2>
+    <p>Lundi : (Bogny-Sur-Meuse)<br>Mercredi : (Charleville-Mézières)<br>Week-end : Brocantes et événements locaux</p>
+  </section>
+  <section class="en">
+    <h2>Where to find us?</h2>
+    <p>Monday: Bogny-Sur-Meuse<br>Wednesday: Charleville-Mézières<br>Weekend: Local flea markets & events</p>
+  </section>
+
+  <section class="fr">
+    <h2>Événements</h2>
+    <p>Nous nous déplaçons dans les Ardennes pour vos fêtes.<br>Des churros chauds et croustillants pour ravir vos invités !</p>
+  </section>
+  <section class="en">
+    <h2>Events</h2>
+    <p>We travel across the Ardennes for your celebrations.<br>Hot and crispy churros to delight your guests!</p>
+  </section>
+
+  <section class="fr">
+    <h2>Nous contacter</h2>
+    <p>Email : leschurrosdemamielumi@gmail.com<br>Tél : 07 60 18 83 13<br>Instagram : @leschurrosdemamielumi</p>
+  </section>
+  <section class="en">
+    <h2>Contact us</h2>
+    <p>Email: leschurrosdemamielumi@gmail.com<br>Phone: +33 7 60 18 83 13<br>Instagram: @leschurrosdemamielumi</p>
+  </section>
+<section>
+    <img src="churros-ecris.jpg" alt="Churros écrit" style="max-width: 300px; margin: 20px auto;">
+  </section>
+
+  <section>
+    <img src="logo-mamie-lumi.png" alt="Texte Mamie Lumi" style="max-width: 250px; margin: 20px auto;">
+  </section>
+  <footer>
+    © 2025 Les Churros de Mamie Lumi — Site fais avec Amour, comme nos Churros 💛
+  </footer>
+</body>
+</html>
